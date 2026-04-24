@@ -1,22 +1,5 @@
 import random
-
-def random_numbers(count, low=0, high=100):
-    return [random.randint(low, high) for _ in range(count)]
-
-def bubble_sort(numbers):
-
-    numbers = numbers.copy()
-    n = len(numbers)
-
-    for i in range(n):
-        for j in range(0, n - i - 1):
-            if numbers[j] > numbers[j + 1]:
-
-                numbers[j], numbers[j + 1] = numbers[j + 1], numbers[j]
-
-    return numbers
-
-
+dfsd
 
 def main():
     test = random_numbers(20)
